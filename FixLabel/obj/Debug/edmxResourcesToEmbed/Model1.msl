@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="DATA0050">
+      <EntityTypeMapping TypeName="Model.DATA0050">
+        <MappingFragment StoreEntitySet="DATA0050">
+          <ScalarProperty Name="RKEY" ColumnName="RKEY" />
+          <ScalarProperty Name="CUSTOMER_PART_NUMBER" ColumnName="CUSTOMER_PART_NUMBER" />
+          <ScalarProperty Name="CUSTOMER_PART_DESC" ColumnName="CUSTOMER_PART_DESC" />
+          <ScalarProperty Name="CP_REV" ColumnName="CP_REV" />
+          <ScalarProperty Name="QTY_SCH" ColumnName="QTY_SCH" />
+          <ScalarProperty Name="QTY_REJ" ColumnName="QTY_REJ" />
+          <ScalarProperty Name="QTY_ON_HAND" ColumnName="QTY_ON_HAND" />
+          <ScalarProperty Name="QTY_ALLOC" ColumnName="QTY_ALLOC" />
+          <ScalarProperty Name="EST_SCRAP" ColumnName="EST_SCRAP" />
+          <ScalarProperty Name="ENGG_ROUTE_PTR" ColumnName="ENGG_ROUTE_PTR" />
+          <ScalarProperty Name="PROD_ROUTE_PTR" ColumnName="PROD_ROUTE_PTR" />
+          <ScalarProperty Name="CUSTOMER_PTR" ColumnName="CUSTOMER_PTR" />
+          <ScalarProperty Name="BOM_PTR" ColumnName="BOM_PTR" />
+          <ScalarProperty Name="PROD_CODE_PTR" ColumnName="PROD_CODE_PTR" />
+          <ScalarProperty Name="ENGG_ROUTE_MOD_FLAG" ColumnName="ENGG_ROUTE_MOD_FLAG" />
+          <ScalarProperty Name="PROD_ROUTE_MOD_FLAG" ColumnName="PROD_ROUTE_MOD_FLAG" />
+          <ScalarProperty Name="MFG_LEAD_TIME" ColumnName="MFG_LEAD_TIME" />
+          <ScalarProperty Name="ACTIVE_S_ORDERS" ColumnName="ACTIVE_S_ORDERS" />
+          <ScalarProperty Name="ACTIVE_W_ORDERS" ColumnName="ACTIVE_W_ORDERS" />
+          <ScalarProperty Name="UNPLANNED_REL_S" ColumnName="UNPLANNED_REL_S" />
+          <ScalarProperty Name="PLANNED_REL_S" ColumnName="PLANNED_REL_S" />
+          <ScalarProperty Name="FIRM_REL_S" ColumnName="FIRM_REL_S" />
+          <ScalarProperty Name="SHELF_LIFE" ColumnName="SHELF_LIFE" />
+          <ScalarProperty Name="LAST_SO_DATE" ColumnName="LAST_SO_DATE" />
+          <ScalarProperty Name="OPT_LOT_SIZE" ColumnName="OPT_LOT_SIZE" />
+          <ScalarProperty Name="FIXED_SCRAP_RATE" ColumnName="FIXED_SCRAP_RATE" />
+          <ScalarProperty Name="CATALOG_NUMBER" ColumnName="CATALOG_NUMBER" />
+          <ScalarProperty Name="STANDARD_COST" ColumnName="STANDARD_COST" />
+          <ScalarProperty Name="STANDARD_MATERIAL" ColumnName="STANDARD_MATERIAL" />
+          <ScalarProperty Name="STANDARD_OVERHEAD" ColumnName="STANDARD_OVERHEAD" />
+          <ScalarProperty Name="INTERNAL_ECN_COUNTER" ColumnName="INTERNAL_ECN_COUNTER" />
+          <ScalarProperty Name="EXTERNAL_ECN_COUNTER" ColumnName="EXTERNAL_ECN_COUNTER" />
+          <ScalarProperty Name="GENERIC_BOM_POINTER" ColumnName="GENERIC_BOM_POINTER" />
+          <ScalarProperty Name="CURRENT_ACT_ACTIVITY" ColumnName="CURRENT_ACT_ACTIVITY" />
+          <ScalarProperty Name="CURRENT_ACT_MATERIAL" ColumnName="CURRENT_ACT_MATERIAL" />
+          <ScalarProperty Name="LAST_CURNT_COST_UPDT" ColumnName="LAST_CURNT_COST_UPDT" />
+          <ScalarProperty Name="LAST_STD_COST_UPDT" ColumnName="LAST_STD_COST_UPDT" />
+          <ScalarProperty Name="ALLOW_EDIT_FLAG" ColumnName="ALLOW_EDIT_FLAG" />
+          <ScalarProperty Name="REPORT_UNIT_VALUE1" ColumnName="REPORT_UNIT_VALUE1" />
+          <ScalarProperty Name="REPORT_UNIT_VALUE2" ColumnName="REPORT_UNIT_VALUE2" />
+          <ScalarProperty Name="REPORT_UNIT_VALUE3" ColumnName="REPORT_UNIT_VALUE3" />
+          <ScalarProperty Name="SALES_ORDER_UNIT_PTR" ColumnName="SALES_ORDER_UNIT_PTR" />
+          <ScalarProperty Name="SALES_ORDER_UNIT_VAL" ColumnName="SALES_ORDER_UNIT_VAL" />
+          <ScalarProperty Name="ON_HOLD_DATE" ColumnName="ON_HOLD_DATE" />
+          <ScalarProperty Name="ON_HOLD_BY_PTR" ColumnName="ON_HOLD_BY_PTR" />
+          <ScalarProperty Name="RELEASE_OPT_LOT_SIZE" ColumnName="RELEASE_OPT_LOT_SIZE" />
+          <ScalarProperty Name="SET_UP_COST" ColumnName="SET_UP_COST" />
+          <ScalarProperty Name="PROCESS_COST" ColumnName="PROCESS_COST" />
+          <ScalarProperty Name="INDIRECT_MATERIAL1" ColumnName="INDIRECT_MATERIAL1" />
+          <ScalarProperty Name="INDIRECT_MATERIAL2" ColumnName="INDIRECT_MATERIAL2" />
+          <ScalarProperty Name="DIRECT_MATERIAL" ColumnName="DIRECT_MATERIAL" />
+          <ScalarProperty Name="OVER_HEAD" ColumnName="OVER_HEAD" />
+          <ScalarProperty Name="ONHOLD_PLANNING_FLAG" ColumnName="ONHOLD_PLANNING_FLAG" />
+          <ScalarProperty Name="ONHOLD_RELEASE_FLAG" ColumnName="ONHOLD_RELEASE_FLAG" />
+          <ScalarProperty Name="ONHOLD_SALES_FLAG" ColumnName="ONHOLD_SALES_FLAG" />
+          <ScalarProperty Name="CUSTPART_ENT_DATE" ColumnName="CUSTPART_ENT_DATE" />
+          <ScalarProperty Name="LAST_MODIFIED_BY_PTR" ColumnName="LAST_MODIFIED_BY_PTR" />
+          <ScalarProperty Name="LAST_MODIFIED_DATE" ColumnName="LAST_MODIFIED_DATE" />
+          <ScalarProperty Name="AUTO_PLANNING_FLAG" ColumnName="AUTO_PLANNING_FLAG" />
+          <ScalarProperty Name="AUTO_RELEASE_FLAG" ColumnName="AUTO_RELEASE_FLAG" />
+          <ScalarProperty Name="CUR_MONTH_OPEN_BAL" ColumnName="CUR_MONTH_OPEN_BAL" />
+          <ScalarProperty Name="ANALYSIS_CODE_1" ColumnName="ANALYSIS_CODE_1" />
+          <ScalarProperty Name="ANALYSIS_CODE_2" ColumnName="ANALYSIS_CODE_2" />
+          <ScalarProperty Name="ANALYSIS_CODE_3" ColumnName="ANALYSIS_CODE_3" />
+          <ScalarProperty Name="ACTIVE_FLAG" ColumnName="ACTIVE_FLAG" />
+          <ScalarProperty Name="CONSUME_FORECASTS" ColumnName="CONSUME_FORECASTS" />
+          <ScalarProperty Name="BACKWARD_DAYS" ColumnName="BACKWARD_DAYS" />
+          <ScalarProperty Name="FORWARD_DAYS" ColumnName="FORWARD_DAYS" />
+          <ScalarProperty Name="PLANNING_HORIZON" ColumnName="PLANNING_HORIZON" />
+          <ScalarProperty Name="RAW_HORIZON" ColumnName="RAW_HORIZON" />
+          <ScalarProperty Name="VISIBILITY_HORIZON" ColumnName="VISIBILITY_HORIZON" />
+          <ScalarProperty Name="DAYS_EARLY_SCHEDULE" ColumnName="DAYS_EARLY_SCHEDULE" />
+          <ScalarProperty Name="LOT_NUMBER_COUNT" ColumnName="LOT_NUMBER_COUNT" />
+          <ScalarProperty Name="APPLY_IN_TRANSIT" ColumnName="APPLY_IN_TRANSIT" />
+          <ScalarProperty Name="DO_SMOOTHING" ColumnName="DO_SMOOTHING" />
+          <ScalarProperty Name="SMOOTHING_THRESHOLD" ColumnName="SMOOTHING_THRESHOLD" />
+          <ScalarProperty Name="ANALYSIS_CODE_4" ColumnName="ANALYSIS_CODE_4" />
+          <ScalarProperty Name="ANALYSIS_CODE_5" ColumnName="ANALYSIS_CODE_5" />
+          <ScalarProperty Name="PRODUCTION_PART_PTR" ColumnName="PRODUCTION_PART_PTR" />
+          <ScalarProperty Name="PLAN_INNER_LAYER" ColumnName="PLAN_INNER_LAYER" />
+          <ScalarProperty Name="LAST_SO_PRICE" ColumnName="LAST_SO_PRICE" />
+          <ScalarProperty Name="PBS_PART" ColumnName="PBS_PART" />
+          <ScalarProperty Name="LAST_MODIFIED_TIME" ColumnName="LAST_MODIFIED_TIME" />
+          <ScalarProperty Name="MIN_STOCK" ColumnName="MIN_STOCK" />
+          <ScalarProperty Name="CIMNET_KEY" ColumnName="CIMNET_KEY" />
+          <ScalarProperty Name="LONG_CUSTOMER_PART_NUMBER" ColumnName="LONG_CUSTOMER_PART_NUMBER" />
+          <ScalarProperty Name="LONG_CUSTOMER_PART_DESC" ColumnName="LONG_CUSTOMER_PART_DESC" />
+          <ScalarProperty Name="DATE_CODE_FLAG" ColumnName="DATE_CODE_FLAG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_BARCODE_FIXPROD_ID">
+      <EntityTypeMapping TypeName="Model.T_BARCODE_FIXPROD_ID">
+        <MappingFragment StoreEntitySet="T_BARCODE_FIXPROD_ID">
+          <ScalarProperty Name="CUST_PART_FIX" ColumnName="CUST_PART_FIX" />
+          <ScalarProperty Name="BOXID" ColumnName="BOXID" />
+          <ScalarProperty Name="PACKID" ColumnName="PACKID" />
+          <ScalarProperty Name="UPDT" ColumnName="UPDT" />
+          <ScalarProperty Name="UPLOG" ColumnName="UPLOG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

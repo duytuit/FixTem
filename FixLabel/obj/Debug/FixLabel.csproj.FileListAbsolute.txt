@@ -1,0 +1,18 @@
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\bin\Debug\FixLabel.exe.config
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\bin\Debug\FixLabel.exe
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\bin\Debug\FixLabel.pdb
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\bin\Debug\EntityFramework.dll
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\bin\Debug\EntityFramework.xml
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\obj\Debug\FixLabel.csprojResolveAssemblyReference.cache
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\obj\Debug\FixLabel.Form1.resources
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\obj\Debug\FixLabel.Properties.Resources.resources
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\obj\Debug\FixLabel.csproj.GenerateResource.Cache
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\obj\Debug\FixLabel.exe
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\obj\Debug\FixLabel.pdb
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\tu.nguyenduy\Documents\Visual Studio 2015\Projects\FixLabel\FixLabel\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub-Project\FixTem\FixLabel\bin\Debug\FixLabel.exe.config
+D:\GitHub-Project\FixTem\FixLabel\obj\Debug\FixLabel.exe
+D:\GitHub-Project\FixTem\FixLabel\obj\Debug\FixLabel.pdb

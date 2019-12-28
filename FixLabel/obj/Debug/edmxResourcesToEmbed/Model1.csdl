@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DATA0050">
+    <Key>
+      <PropertyRef Name="RKEY" />
+    </Key>
+    <Property Name="RKEY" Type="Int32" Nullable="false" />
+    <Property Name="CUSTOMER_PART_NUMBER" Type="String" MaxLength="20" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CUSTOMER_PART_DESC" Type="String" MaxLength="40" FixedLength="true" Unicode="false" />
+    <Property Name="CP_REV" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="QTY_SCH" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="QTY_REJ" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="QTY_ON_HAND" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="QTY_ALLOC" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="EST_SCRAP" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="ENGG_ROUTE_PTR" Type="Int32" />
+    <Property Name="PROD_ROUTE_PTR" Type="Int32" />
+    <Property Name="CUSTOMER_PTR" Type="Int32" Nullable="false" />
+    <Property Name="BOM_PTR" Type="Int32" />
+    <Property Name="PROD_CODE_PTR" Type="Int32" />
+    <Property Name="ENGG_ROUTE_MOD_FLAG" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="PROD_ROUTE_MOD_FLAG" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="MFG_LEAD_TIME" Type="Int32" />
+    <Property Name="ACTIVE_S_ORDERS" Type="Int32" />
+    <Property Name="ACTIVE_W_ORDERS" Type="Int32" />
+    <Property Name="UNPLANNED_REL_S" Type="Int32" />
+    <Property Name="PLANNED_REL_S" Type="Int32" />
+    <Property Name="FIRM_REL_S" Type="Int32" />
+    <Property Name="SHELF_LIFE" Type="Int32" />
+    <Property Name="LAST_SO_DATE" Type="DateTime" />
+    <Property Name="OPT_LOT_SIZE" Type="Int32" />
+    <Property Name="FIXED_SCRAP_RATE" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="CATALOG_NUMBER" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="STANDARD_COST" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="STANDARD_MATERIAL" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="STANDARD_OVERHEAD" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="INTERNAL_ECN_COUNTER" Type="Int32" />
+    <Property Name="EXTERNAL_ECN_COUNTER" Type="Int32" />
+    <Property Name="GENERIC_BOM_POINTER" Type="Int32" />
+    <Property Name="CURRENT_ACT_ACTIVITY" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="CURRENT_ACT_MATERIAL" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="LAST_CURNT_COST_UPDT" Type="DateTime" />
+    <Property Name="LAST_STD_COST_UPDT" Type="DateTime" />
+    <Property Name="ALLOW_EDIT_FLAG" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="REPORT_UNIT_VALUE1" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="REPORT_UNIT_VALUE2" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="REPORT_UNIT_VALUE3" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="SALES_ORDER_UNIT_PTR" Type="Int32" />
+    <Property Name="SALES_ORDER_UNIT_VAL" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="ON_HOLD_DATE" Type="DateTime" />
+    <Property Name="ON_HOLD_BY_PTR" Type="Int32" />
+    <Property Name="RELEASE_OPT_LOT_SIZE" Type="Int32" />
+    <Property Name="SET_UP_COST" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="PROCESS_COST" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="INDIRECT_MATERIAL1" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="INDIRECT_MATERIAL2" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="DIRECT_MATERIAL" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="OVER_HEAD" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="ONHOLD_PLANNING_FLAG" Type="Int32" />
+    <Property Name="ONHOLD_RELEASE_FLAG" Type="Int32" />
+    <Property Name="ONHOLD_SALES_FLAG" Type="Int32" />
+    <Property Name="CUSTPART_ENT_DATE" Type="DateTime" />
+    <Property Name="LAST_MODIFIED_BY_PTR" Type="Int32" />
+    <Property Name="LAST_MODIFIED_DATE" Type="DateTime" />
+    <Property Name="AUTO_PLANNING_FLAG" Type="Int32" />
+    <Property Name="AUTO_RELEASE_FLAG" Type="Int32" />
+    <Property Name="CUR_MONTH_OPEN_BAL" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="ANALYSIS_CODE_1" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="ANALYSIS_CODE_2" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="ANALYSIS_CODE_3" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="ACTIVE_FLAG" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CONSUME_FORECASTS" Type="Int32" />
+    <Property Name="BACKWARD_DAYS" Type="Int32" />
+    <Property Name="FORWARD_DAYS" Type="Int32" />
+    <Property Name="PLANNING_HORIZON" Type="Int32" />
+    <Property Name="RAW_HORIZON" Type="Int32" />
+    <Property Name="VISIBILITY_HORIZON" Type="Int32" />
+    <Property Name="DAYS_EARLY_SCHEDULE" Type="Int32" />
+    <Property Name="LOT_NUMBER_COUNT" Type="Int32" />
+    <Property Name="APPLY_IN_TRANSIT" Type="Int32" />
+    <Property Name="DO_SMOOTHING" Type="Int32" />
+    <Property Name="SMOOTHING_THRESHOLD" Type="Int32" />
+    <Property Name="ANALYSIS_CODE_4" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="ANALYSIS_CODE_5" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="PRODUCTION_PART_PTR" Type="Int32" />
+    <Property Name="PLAN_INNER_LAYER" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="LAST_SO_PRICE" Type="Decimal" Precision="21" Scale="8" />
+    <Property Name="PBS_PART" Type="Int32" />
+    <Property Name="LAST_MODIFIED_TIME" Type="Int32" />
+    <Property Name="MIN_STOCK" Type="Decimal" Precision="20" Scale="7" />
+    <Property Name="CIMNET_KEY" Type="Binary" MaxLength="12" FixedLength="false" />
+    <Property Name="LONG_CUSTOMER_PART_NUMBER" Type="String" MaxLength="100" FixedLength="true" Unicode="false" />
+    <Property Name="LONG_CUSTOMER_PART_DESC" Type="String" MaxLength="100" FixedLength="true" Unicode="false" />
+    <Property Name="DATE_CODE_FLAG" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="T_BARCODE_FIXPROD_ID">
+    <Key>
+      <PropertyRef Name="CUST_PART_FIX" />
+    </Key>
+    <Property Name="CUST_PART_FIX" Type="String" MaxLength="9" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BOXID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="PACKID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="UPDT" Type="DateTime" />
+    <Property Name="UPLOG" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DATA0050" EntityType="Self.DATA0050" />
+    <EntitySet Name="T_BARCODE_FIXPROD_ID" EntityType="Self.T_BARCODE_FIXPROD_ID" />
+  </EntityContainer>
+</Schema>
